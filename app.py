@@ -2,6 +2,8 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+st.header('Gráficas comparativas cantidad y precio Vs. Kilometraje') #Encabezado
+
 car_data = pd.read_csv('vehicles_us.csv') # lee los datos del archivo vehicles
 
 # esta linea crea una casilla de verificacion para el histograma
